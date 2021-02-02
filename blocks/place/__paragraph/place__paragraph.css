@@ -1,0 +1,35 @@
+.place__paragraph {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #ffffff;
+    padding-bottom: 26px;
+    margin-block: 0;
+}
+
+.place__paragraph:last-child {
+    padding-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+    .place__paragraphs {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 640px) {
+    .place__paragraphs {
+        padding-top: 32px;
+    }
+}
+
+@media (max-width: 320px) {
+    .place__paragraphs {
+        padding: 0 16px 25px;
+    }
+
+    .place__paragraph:last-child {
+        padding-bottom: 0px;
+    }
+} 

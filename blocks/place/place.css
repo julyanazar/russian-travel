@@ -1,0 +1,22 @@
+.place {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding-bottom: 80px;
+}
+
+.places:last-child {
+    padding-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+    .place {
+        padding-bottom: 73px;
+    }
+} 
+
+@media (max-width: 768px) {
+    .place {
+        padding-bottom: 50px;
+    }
+} 

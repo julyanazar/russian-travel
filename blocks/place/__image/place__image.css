@@ -1,0 +1,33 @@
+.place__image {
+    max-width: 460px;
+    box-sizing: border-box;
+    padding-right: 40px;
+    height: 50%;
+}
+
+@media (max-width: 1024px) {
+    .place__image {
+        max-width: 440px;
+        padding-right: 32px;
+    }
+} 
+
+@media (max-width: 768px) {
+    .place__image {
+        max-width: 340px;
+        padding-right: 28px;
+    }
+} 
+
+@media (max-width: 640px) {
+    .place__image {
+        width: 100%;
+        padding: 0;
+    }
+} 
+
+@media (max-width: 320px) {
+    .place__image {
+        padding-bottom: 32px;
+    }
+} 

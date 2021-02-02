@@ -1,0 +1,11 @@
+.place__block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 640px) {
+    .place__block {
+        flex-wrap: wrap;
+    }
+} 
