@@ -7,7 +7,12 @@
     line-height: 18px;
     color: #ffffff;
     margin-right: 18px;
+    transition: opacity 0.3s linear;
 }
+
+.footer__link:hover {
+    opacity: 80%;
+  }
 
 @media (max-width: 750px) {
     .footer__link {
@@ -16,4 +21,3 @@
         line-height: 55px;
     }
 } 
-
