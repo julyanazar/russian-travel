@@ -1,7 +1,7 @@
 .page {
     background-color: #2A2C2F;
     min-width: 320px;
-    max-width: 1600px;
+    /* max-width: 1600px; */
     /* margin: 0 auto; */
     /* выше для экранов больше 1600px отцентрировали весь контент */
 }
