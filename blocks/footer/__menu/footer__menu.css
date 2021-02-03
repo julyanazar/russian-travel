@@ -1,0 +1,14 @@
+.footer__menu {
+    list-style: none;
+    padding-inline: 0;
+    margin-block: 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+@media (max-width: 750px) {
+    .footer__menu {
+        display: inline;
+    }
+} 
