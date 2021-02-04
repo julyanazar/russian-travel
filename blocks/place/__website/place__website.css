@@ -1,11 +1,11 @@
 .place__website {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding-bottom: 48px;
     padding-top: 106px;
-    max-width: 456px;
+    max-width: 456px; 
 }
 
 @media (max-width: 768px) {
@@ -18,12 +18,8 @@
 @media (max-width: 512px) {
     .place__website {
         padding-top: 0;
-    }
-} 
-
-@media (max-width: 320px) {
-    .place__website {
         padding: 32px 16px;
         max-width: 288px;
     }
 } 
+
