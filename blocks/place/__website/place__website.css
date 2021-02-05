@@ -2,23 +2,24 @@
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding-bottom: 48px;
-    padding-top: 106px;
+    justify-content: flex-end;
     max-width: 456px; 
 }
 
 @media (max-width: 768px) {
     .place__website {
-        padding-top: 46px;
         max-width: 352px;
+    }
+} 
+
+@media (max-width: 640px) {
+    .place__website {
+        padding-left: 16px;
     }
 } 
 
 @media (max-width: 512px) {
     .place__website {
-        padding-top: 0;
-        padding: 32px 16px;
         max-width: 288px;
     }
 } 

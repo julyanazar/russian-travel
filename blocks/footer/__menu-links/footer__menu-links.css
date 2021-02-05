@@ -1,0 +1,18 @@
+.footer__menu-links {
+    margin-right: 18px;
+}
+
+.footer__menu-links:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 750px) {
+    .footer__menu-links {
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+
+    .footer__menu-links:last-child {
+        margin-bottom: 0px;
+    }
+}
