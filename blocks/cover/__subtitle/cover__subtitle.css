@@ -11,7 +11,7 @@
     position: relative;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
     .cover__subtitle {
         max-width: 288px;
         font-size: 14px;

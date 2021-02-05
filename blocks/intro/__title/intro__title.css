@@ -15,10 +15,10 @@
     }
 } 
 
-@media (max-width: 480px) {
+@media (max-width: 530px) {
     .intro__title{
-        font-size: 45px;
-        line-height: 48px;
+        font-size: 40px;
+        line-height: 42px;
     }
 } 
 

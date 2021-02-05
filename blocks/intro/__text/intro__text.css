@@ -15,7 +15,13 @@
     }
 } 
 
-@media (max-width: 320px) {
+@media (max-width: 530px) {
+    .intro__title{
+        max-width: 450px;
+    }
+} 
+
+@media (max-width: 340px) {
     .intro__text{
         max-width: 288px;
     }
