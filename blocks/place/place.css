@@ -40,7 +40,6 @@
 
 @media (max-width: 670px) {
     .place {
-        padding-bottom: 73px;
         grid-template-columns: 280px 1fr;
     }
 } 
